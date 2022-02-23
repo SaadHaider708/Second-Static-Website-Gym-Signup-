@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('img/Gym.jpg');
+            background-repeat: no-repeat;
+            font-family: 'Rowdies';
+
+        }
+.gradient{
+    background: rgb(0 0 0 / 53%);
+    position: absolute;
+    width: 1349px;
+    height: 660px;
+
+}
+        .left {
+            /* border: 2px solid red; */
+            color: aliceblue;
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 24px;
+        }
+
+        .left img {
+            width: 54px;
+            filter: invert(100%);
+            padding: 0px 27px 0px 27px
+        }
+
+        .logoText {
+
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            color: aliceblue;
+            width: 33%;
+            display: block;
+            margin: 24px auto;
+        }
+
+        .nav {
+
+            display: inline-block;
+        }
+
+        .nav li {
+
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .nav li a {
+
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            transition: 0.5s;
+        }
+
+        .nav li a:hover,
+        .nav li a.active {
+
+            text-decoration: underline;
+            color: gray;
+
+        }
+
+        .right {
+            /* border: 2px solid blue; */
+            color: aliceblue;
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 24px;
+
+
+        }
+
+        .btn {
+
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: solid gray;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.5s;
+            font-family: 'Rowdies';
+
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+
+            /* border: 2px solid white; */
+            margin: 100px 64px;
+            padding: 10px 14px;
+            width: 39%;
+            border-radius: 9px;
+            font-family: 'Rowdies';
+            color: white;
+            background: rgb(0 0 0 / 73%);
+                }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 248px;
+            padding: 2px;
+            border: 2px solid black;
+            margin: 13px auto;
+            font-size: 20px;
+            font-family: 'Rowdies';
+            border-radius: 5px;
+
+        }
+
+        .container h1 {
+
+            text-align: center;
+            font-family: 'Rowdies';
+        }
+
+        .container button{
+
+            display: block;
+            width: 50%;
+            font-family: 'Rowdies';
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient">
+    <header class="header">
+
+        <!-- For logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="Logo">
+            <div class="logoText">Fitness Gym</div>
+
+        </div>
+        <!-- For Navbar -->
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About</a></li>
+
+            </ul>
+
+        </div>
+        <!-- For Right side of Navbar -->
+        <div class="right">
+
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <h1>Join us for a Premium Membership at our Gym </h1>
+        <form action="no action.php">
+
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter your name">
+                <input type="text" name="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your Gender">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
